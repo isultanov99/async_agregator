@@ -13,7 +13,7 @@ Any source error or timeout > 2 s. is ignored and considered as absence of data.
 
 ## Getting Started — Начало работы
 
-Linux/MacOS
+macOS (Tested on macOS Mojave 10.14)
 ```bash
 $ git clone https://github.com/isultanov99/async_agregator.git
 $ cd async_agregator/
@@ -23,11 +23,21 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
+Linux (Tested on Ubuntu 21.10)
+```bash
+$ git clone https://github.com/isultanov99/async_agregator.git
+$ cd async_agregator/
+$ pip install virtualenv
+$ python -m virtualenv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+```
+
 Windows
 
 ```powershell
 git clone https://github.com/isultanov99/async_agregator.git
-cd async_agregator/
+cd async_agregator
 python -m venv venv
 venv\Scripts\activate.bat
 pip install -r requirements.txt
