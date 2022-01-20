@@ -1,0 +1,3 @@
+Flask==2.0.2pu
+aiohttp==3.8.1
+asyncio==3.4.3
