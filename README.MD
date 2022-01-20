@@ -13,7 +13,7 @@ Any source error or timeout > 2 s. is ignored and considered as absence of data.
 
 ## Getting Started — Начало работы
 
-macOS (Tested on macOS Mojave 10.14)
+macOS (Tested on macOS Mojave 10.14 and Big Sur 11.6)
 ```bash
 $ git clone https://github.com/isultanov99/async_agregator.git
 $ cd async_agregator/
@@ -23,7 +23,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-Linux (Tested on Ubuntu 21.10)
+Linux (Tested on Ubuntu 21.10 and WSL Ubuntu 18.04)
 ```bash
 $ git clone https://github.com/isultanov99/async_agregator.git
 $ cd async_agregator/
@@ -33,9 +33,9 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-Windows
+Windows (Tested on Windows 10 ver. 20H1)
 
-```powershell
+```cmd
 git clone https://github.com/isultanov99/async_agregator.git
 cd async_agregator
 python -m venv venv
@@ -50,7 +50,8 @@ Finally, launch app:
 ```bash
 $ python app.py
 ```
-and go to [http://localhost:5000/get-data](http://localhost:5000/get-data)
+and go to [http://localhost:5000/get-data](http://localhost:5000/get-data) \
+If you are running into `import` errors, try `pip3` and `python3` instead of `pip` and `python`.
 
 ---
 Чтобы выбрать ссылки c источниками, измените три переменные: `URL1, URL2, URL3` в файле `app.py`. На данный момент используются три тестовых файла в папке `/static/`.\
@@ -58,4 +59,6 @@ and go to [http://localhost:5000/get-data](http://localhost:5000/get-data)
 ```bash
 $ python app.py
 ```
-и перейдите по ссылке [http://localhost:5000/get-data](http://localhost:5000/get-data)
+и перейдите по ссылке [http://localhost:5000/get-data](http://localhost:5000/get-data) \
+Если вы столкнулись с `import` ошибками, попробуйте `pip3` и `python3` вместо `pip` и `python`.
+
